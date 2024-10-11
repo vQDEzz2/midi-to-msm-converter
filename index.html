@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MIDI to MSM Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MIDI to MSM Converter</h1>
+    <p>Select a MIDI file to convert it into an MSM file compatible with the My Singing Monsters Composer app.</p>
+
+    <input type="file" id="midiFileInput" accept=".mid,.midi" />
+    <button id="convertButton">Convert to MSM</button>
+
+    <div id="progress"></div>
+
+    <!-- Include necessary libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@tonejs/midi@2.0.27/build/TonejsMidi.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
